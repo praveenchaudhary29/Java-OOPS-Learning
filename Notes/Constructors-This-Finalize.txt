@@ -23,7 +23,7 @@ it is about to recycle an object of that class. Right before an asset is freed, 
 method on the object.
 
 protected void finalize( ) {
-    // finalization code here
+    //  finalization code here
 }
 
 Constructors:
