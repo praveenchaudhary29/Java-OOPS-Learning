@@ -11,7 +11,7 @@ This means that you must initialize a final field when it is declared.
 It is a common coding convention to choose all uppercase identifiers for final fields:
      final int FILE_OPEN = 2;
 
-Unfortunately, final guarantees immutability only when instance variables are primitive types, not reference types.
+#Unfortunately, final guarantees immutability only when instance variables are primitive types, not reference types.
 If an instance variable of a reference type has the final modifier, the value of that instance variable (the reference
 to an object) will never change—it will always refer to the same object—but the value of the object itself can change.
 
